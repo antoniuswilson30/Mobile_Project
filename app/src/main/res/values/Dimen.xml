@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawerSize">240dp</dimen>
+    <dimen name="lebarLayar">300dp</dimen>
+    <dimen name="tinggiLayar">320dp</dimen>
+</resources>

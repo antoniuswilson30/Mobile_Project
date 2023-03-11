@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue1"
+    >
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="210dp"-->
+<!--        android:layout_height="210dp"-->
+
+<!--        android:layout_centerInParent="true"-->
+<!--        android:background="@drawable/ic_untitled_design"></LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerInParent="true"-->
+
+<!--        android:orientation="vertical">-->
+
+<!--&lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:text="HelloDoc"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textSize="32dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textColor="@color/blue"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:fontFamily="sans-serif-medium"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textAlignment="center"&ndash;&gt;-->
+<!--&lt;!&ndash;                    >&ndash;&gt;-->
+<!--&lt;!&ndash;                </TextView>&ndash;&gt;-->
+
+<!--    </LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:background="@drawable/ic_untitled_design"
+            android:layout_gravity="center"
+            >
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="sans-serif"
+            android:text="Memberikan solusi kesehatan untuk kamu dan keluarga"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17dp">
+
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        >
+
+        <Button
+            android:id="@+id/tombolJanjiHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:text="Buat Janji"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:background="@drawable/button2"
+            android:textSize="14dp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
